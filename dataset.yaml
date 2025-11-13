@@ -1,0 +1,19 @@
+train: /content/dataset/license_plate/images/train
+val: /content/dataset/license_plate/images/val
+
+nc: 2
+names: ['pl1', 'pl2']
+
+# Thêm phần augment
+augment:
+  hsv_h: 0.015  # Điều chỉnh hue
+  hsv_s: 0.7    # Điều chỉnh saturation
+  hsv_v: 0.4    # Điều chỉnh value
+  degrees: 15.0  # Xoay tối đa ±15 độ
+  translate: 0.1  # Dịch chuyển
+  scale: 0.5     # Thay đổi kích thước
+  shear: 0.1     # Biến dạng shear tối đa ±10 độ
+  perspective: 0.0  # Tắt perspective augmentation
+  flipud: 0.5    # Xác suất lật lên xuống 50%
+  fliplr: 0.5    # Xác suất lật trái phải 50%
+  mosaic: 1.0    # Bật mosaic augmentation với xác suất 100%
