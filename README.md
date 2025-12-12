@@ -25,4 +25,5 @@ Tính năng chính
   Tiền và hậu xử lý để tăng độ chính xác
   
   Ghép chuỗi ký tự theo đúng định dạng biển số Việt Nam
+  
   3. Xây dựng Web demo được viết bằng Vue.js 
